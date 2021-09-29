@@ -1,2 +1,2 @@
-Implementasi AI pada script diatas terdapat pada part J karena paddle kiri dapat bergerak otomatis dari atas ke bawah untuk menangkap dan memantulkan ball yang muncul dari arah sebelah kanan.
-Alur AI pada script diatas yaitu sebuah game pingpong yang mana game ini merupakan game yang dimainkan dua orang. Ketika musuh memasukkan bola ke tempat lawan maka musuh akan mendapatkan poin dan juga sebaliknya.
+2. Implementasi AI pada script diatas terdapat pada part J karena paddle kiri dapat bergerak otomatis dari atas ke bawah untuk menangkap dan memantulkan ball yang muncul dari arah sebelah kanan. 
+3. Alur AI pada script diatas yaitu sebuah game pingpong yang mana game ini merupakan game yang dimainkan dua orang. Ketika musuh memasukkan bola ke tempat lawan maka musuh akan mendapatkan poin dan juga sebaliknya.
