@@ -124,7 +124,6 @@ class GameManager:
 		self.reset_ball()
 		self.draw_score()
     #Part K
-		
 	def reset_ball(self):
 		if self.ball_group.sprite.rect.right >= screen_width:
                         
@@ -147,7 +146,6 @@ class GameManager:
 		screen.blit(player_score,player_score_rect)
 		screen.blit(opponent_score,opponent_score_rect)
 #Part D
-
 pygame.mixer.pre_init(44100,-16,2,512)
 pygame.init()
 clock = pygame.time.Clock()
@@ -169,7 +167,6 @@ score_sound = pygame.mixer.Sound("score.ogg")
 middle_strip = pygame.Rect(screen_width/2 - 2,0,4,screen_height)
 
 #Part F
-
 player = Player('Paddle.png',screen_width - 20,screen_height/2,5)
 opponent = Opponent('Paddle.png',20,screen_width/2,5)
 paddle_group = pygame.sprite.Group()
@@ -181,6 +178,7 @@ ball_sprite = pygame.sprite.GroupSingle()
 ball_sprite.add(ball)
 
 game_manager = GameManager(ball_sprite,paddle_group)
+
 #Part M
 while True:
 	for event in pygame.event.get():
@@ -198,8 +196,7 @@ while True:
 			if event.key == pygame.K_DOWN:
 				player.movement -= player.speed
 	
-    #Part L
-	
+    #Part L	
 	screen.fill(bg_color) 
 	pygame.draw.rect(screen,accent_color,middle_strip)
 	
