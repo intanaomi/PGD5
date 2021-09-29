@@ -85,7 +85,6 @@ class Ball(Block):
 		pygame.draw.rect(screen,bg_color,time_counter_rect)
 		screen.blit(time_counter,time_counter_rect)
 #Part J
-#Bagian AI
 class Opponent(Block): 
 	def __init__(self,path,x_pos,y_pos,speed): 
 		super().__init__(path,x_pos,y_pos) 
